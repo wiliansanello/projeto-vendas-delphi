@@ -1,0 +1,139 @@
+object frmTelaHeranca: TfrmTelaHeranca
+  Left = 0
+  Top = 0
+  Caption = 'Informe aqui o t'#237'tulo'
+  ClientHeight = 471
+  ClientWidth = 778
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poScreenCenter
+  TextHeight = 15
+  object pgcPrincipal: TPageControl
+    Left = 0
+    Top = 0
+    Width = 778
+    Height = 430
+    ActivePage = tbManutencao
+    Align = alClient
+    TabOrder = 0
+    ExplicitWidth = 782
+    object tbListagem: TTabSheet
+      Caption = 'Listagem'
+    end
+    object tbManutencao: TTabSheet
+      Caption = 'Manuten'#231#227'o'
+      ImageIndex = 1
+      object pnlListagem: TPanel
+        Left = 0
+        Top = 0
+        Width = 770
+        Height = 81
+        Align = alTop
+        TabOrder = 0
+        ExplicitWidth = 774
+        object mskEdit: TMaskEdit
+          Left = 32
+          Top = 16
+          Width = 433
+          Height = 23
+          TabOrder = 0
+          Text = 'mskEdit'
+        end
+        object btnPesquisar: TBitBtn
+          Left = 471
+          Top = 15
+          Width = 75
+          Height = 25
+          BiDiMode = bdLeftToRight
+          Caption = '&Pesquisar'
+          ParentBiDiMode = False
+          TabOrder = 1
+        end
+      end
+      object grdListagem: TDBGrid
+        Left = 0
+        Top = 81
+        Width = 770
+        Height = 319
+        Align = alClient
+        TabOrder = 1
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -12
+        TitleFont.Name = 'Segoe UI'
+        TitleFont.Style = []
+      end
+    end
+  end
+  object pnlRodape: TPanel
+    Left = 0
+    Top = 430
+    Width = 778
+    Height = 41
+    Align = alBottom
+    TabOrder = 1
+    ExplicitLeft = 128
+    ExplicitTop = 360
+    ExplicitWidth = 185
+    object btnNovo: TBitBtn
+      Left = 4
+      Top = 6
+      Width = 75
+      Height = 25
+      Caption = '&Novo'
+      TabOrder = 0
+    end
+    object BitBtn2: TBitBtn
+      Left = 85
+      Top = 6
+      Width = 75
+      Height = 25
+      Caption = 'BitBtn1'
+      TabOrder = 1
+    end
+    object BitBtn3: TBitBtn
+      Left = 166
+      Top = 6
+      Width = 75
+      Height = 25
+      Caption = 'BitBtn1'
+      TabOrder = 2
+    end
+    object BitBtn4: TBitBtn
+      Left = 247
+      Top = 6
+      Width = 75
+      Height = 25
+      Caption = 'BitBtn1'
+      TabOrder = 3
+    end
+    object BitBtn5: TBitBtn
+      Left = 328
+      Top = 6
+      Width = 75
+      Height = 25
+      Caption = 'BitBtn1'
+      TabOrder = 4
+    end
+    object BitBtn6: TBitBtn
+      Left = 699
+      Top = 6
+      Width = 75
+      Height = 25
+      Caption = 'BitBtn1'
+      TabOrder = 5
+    end
+    object DBNavigator1: TDBNavigator
+      Left = 409
+      Top = 6
+      Width = 224
+      Height = 25
+      VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast]
+      TabOrder = 6
+    end
+  end
+end

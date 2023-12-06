@@ -1,0 +1,42 @@
+object frmTelaHeranca: TfrmTelaHeranca
+  Left = 0
+  Top = 0
+  Caption = 'Informe aqui o t'#237'tulo'
+  ClientHeight = 471
+  ClientWidth = 782
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poScreenCenter
+  TextHeight = 15
+  object pgcPrincipal: TPageControl
+    Left = 0
+    Top = 0
+    Width = 782
+    Height = 430
+    ActivePage = tbManutencao
+    Align = alClient
+    TabOrder = 0
+    object tbListagem: TTabSheet
+      Caption = 'Listagem'
+    end
+    object tbManutencao: TTabSheet
+      Caption = 'Manuten'#231#227'o'
+      ImageIndex = 1
+    end
+  end
+  object pnlRodape: TPanel
+    Left = 0
+    Top = 430
+    Width = 782
+    Height = 41
+    Align = alBottom
+    TabOrder = 1
+    ExplicitLeft = 128
+    ExplicitTop = 360
+    ExplicitWidth = 185
+  end
+end

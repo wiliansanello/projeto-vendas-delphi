@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/10/26 20:56:10.000.270,=C:\Users\wilia\delphi-projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/11 17:33:25.000.684,=C:\Users\wilia\delphi-projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/11 17:34:01.000.850,C:\Users\wilia\delphi-projects\Unit1.pas=C:\Users\wilia\delphi-projects\uPrincipal.pas</Transaction>
+    <Transaction>2023/11/11 17:34:01.000.850,C:\Users\wilia\delphi-projects\Unit1.dfm=C:\Users\wilia\delphi-projects\uPrincipal.dfm</Transaction>
+    <Transaction>2023/11/11 17:34:19.000.072,C:\Users\wilia\delphi-projects\Project1.dproj=C:\Users\wilia\delphi-projects\Vendas.dproj</Transaction>
+    <Transaction>2023/11/15 14:30:01.000.231,=C:\Users\wilia\delphi-projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/15 14:30:36.000.296,C:\Users\wilia\delphi-projects\data-module\uDTMConexao.dfm=C:\Users\wilia\delphi-projects\Unit1.dfm</Transaction>
+    <Transaction>2023/11/15 14:30:36.000.296,C:\Users\wilia\delphi-projects\data-module\uDTMConexao.pas=C:\Users\wilia\delphi-projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/15 15:40:49.000.605,C:\Users\wilia\delphi-projects\Vendas.dproj=C:\Users\wilia\delphi-projects\Vendas.dproj</Transaction>
+    <Transaction>2023/11/25 09:38:01.000.064,=C:\Users\wilia\delphi-projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/25 09:39:54.000.477,C:\Users\wilia\delphi-projects\Unit1.dfm=C:\Users\wilia\delphi-projects\heranca\uTelaHeranca.dfm</Transaction>
+    <Transaction>2023/11/25 09:39:54.000.477,C:\Users\wilia\delphi-projects\Unit1.pas=C:\Users\wilia\delphi-projects\heranca\uTelaHeranca.pas</Transaction>
+    <Transaction>2023/12/06 05:48:22.407,=C:\Users\wilia\delphi-projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/06 05:49:11.496,C:\Users\wilia\delphi-projects\cadastro\uCadCategoria.pas=C:\Users\wilia\delphi-projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/06 05:49:11.496,C:\Users\wilia\delphi-projects\cadastro\uCadCategoria.dfm=C:\Users\wilia\delphi-projects\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
